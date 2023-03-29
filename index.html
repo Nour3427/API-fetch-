@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylemeteo.css">
+    <script src="https://use.fontawesome.com/036c5f0d8e.js"></script>
+    <script src="https://kit.fontawesome.com/1348237436.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="text " placeholder="Search">
+        <div class="icone"><i class="fa fa-search" aria-hidden="true" style="color: grey;"></i></div>
+    </div>
+    <div class="info">
+        <div class="city">
+            <div class="cityname">
+                <h1></h1>
+                <h2></h2>
+            </div>
+            <div >
+                <p id="date"></p>
+            </div>
+        </div>
+        <div class="temp">
+            <p id="weather"> </p>
+            <img id="weatherImage" src="" alt="">
+        </div>
+        <div class="stat">
+            <div class="statmeteo"><img src="./icons8-flou-50.png" style="width: 45px;" />
+                <p id="humidity"></p>
+            </div>
+            <div class="statmeteo"><img src="./icons8-manche-à-air-64.png" alt="" style="width: 45px;">
+                <p id="wind"></p>
+            </div>
+            <div class="statmeteo"><img src="./icons8-partiellement-nuageux-avec-pluie-48.png" alt=""
+                    style="width: 45px; ">
+                <p id="probRain"> </p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./meteo.js"></script>
+</body>
+
+</html>
